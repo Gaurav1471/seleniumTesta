@@ -22,7 +22,7 @@ import org.openqa.selenium.WebElement;
 public class Cleartrip {
 	private static WebDriver driver;
 	private static WebDriverWait wait;
-	private static final String email = "tanvimer1031@gmail.com";
+	private static final String email = "gauravsinghmer@gmail.com";
 	private static final String password = "Gauravchi@123";
 
 	
