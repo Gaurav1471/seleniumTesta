@@ -3,12 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.Cleartrip">
+      <class name="test.Amazon">
         <methods>
-          <include name="launchWebDriver"/>
-          <include name="selectDepartureDate"/>
+          <include name="checkCartdetails"/>
+          <include name="launchWebdriver"/>
+          <include name="closeDriver"/>
+          <include name="goTocart"/>
+          <include name="addToCart"/>
+          <include name="selectFirstResult"/>
         </methods>
-      </class> <!-- test.Cleartrip -->
+      </class> <!-- test.Amazon -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

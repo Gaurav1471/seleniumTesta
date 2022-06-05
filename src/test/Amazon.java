@@ -36,10 +36,10 @@ public class Amazon {
 		signIn.click();
 
 		WebElement typeEmail=driver.findElement(By.xpath("//input[@type='email']"));
-		typeEmail.sendKeys("7009164133",Keys.ENTER);
+		typeEmail.sendKeys("backupkeliyebanaya@gmail.com",Keys.ENTER);
 
 		WebElement typePassword=driver.findElement(By.xpath("//input[@type='password']"));
-		typePassword.sendKeys("amazonkapass",Keys.ENTER);
+		typePassword.sendKeys("Gauravchi@12345",Keys.ENTER);
 	}
 
 	@Test(priority=2)
